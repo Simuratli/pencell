@@ -1,0 +1,282 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
+    top: -60px;
+    z-index: -12 !important;
+}
+
+.nav {
+    z-index: 12123 !important;
+    position: absolute;
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-family: 'Staatliches', cursive;
+    font-size: 25px !important;
+}
+
+.search {
+    border: 0 !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid gray !important;
+}
+
+p {
+    font-size: 20px !important;
+    font-family: 'Baskervville', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Calistoga', cursive !important;
+}
+
+.fa-angle-right {
+    font-size: 20px !important;
+    position: relative;
+    top: 2px !important;
+}
+
+.link {
+    text-decoration: none !important;
+    color: rgb(44, 43, 43) !important;
+}
+
+.link:hover {
+    text-decoration: none !important;
+    color: black !important;
+    transition: 1ms !important;
+}
+
+.mycardbody {
+    float: left !important;
+}
+
+.img {
+    float: left !important;
+}
+
+.number {
+    font-size: 60px !important;
+    color: darkorange;
+    font-family: 'Staatliches', cursive !important;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.imgcard {
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 12 !important;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.imgbox {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    z-index: 12;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.namepsan {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    font-weight: bold
+}
+
+.name {
+    color: black;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive !important;
+}
+
+.imgbox2 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 12;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.imgbox3 {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    z-index: 112 !important;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.myform {
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 0px;
+    border-bottom: 1px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.myform:focus {
+    outline: 0px solid white;
+}
+
+.namepsan {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    font-weight: bold
+}
+
+.mybtn {
+    border: none;
+    margin-bottom: 20px;
+    padding: 50px;
+    width: 100% !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-size: 200%;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.btn1 {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.btn2 {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2px;
+}
+
+.mycol {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.text-sm {
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.linkblog {
+    text-decoration: none !important;
+}
+
+.linkblog:hover {
+    text-decoration: none !important;
+}
+
+.boxcat {
+    background-color: #ffb300;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.boxcat a {
+    text-decoration: none;
+    color: white;
+}
+
+.boxcat:hover a {
+    text-decoration: none;
+    color: black;
+}
+
+.profpic {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    z-index: 12;
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.cardshadow {
+    -webkit-box-shadow: 4px 6px 11px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 6px 11px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 6px 11px 1px rgba(0, 0, 0, 0.75);
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    text-shadow: 2px 2px #000000 !important
+}
+
+.imgbox3 {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    z-index: 12;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.imgbox3 {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    z-index: 12;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.message-list {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s !important;
+}
+
+.message-list:hover {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s !important;
+    background-color: yellow !important
+}
+
+.messagebox {
+    height: 300px;
+}

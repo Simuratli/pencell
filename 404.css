@@ -1,0 +1,45 @@
+html,
+body {
+    background-color: #F4D35E;
+}
+
+* {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #001427;
+}
+
+h1 span {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.col-md-4 img {
+    margin-top: 30%;
+    min-height: 70%;
+    max-width: 100%;
+}
+
+.transparent {
+    background-color: transparent !important;
+    border: 0;
+    font-weight: bold;
+}
+
+.transparent:hover {
+    background-color: rgb(228, 205, 124) !important;
+    border: 1px !important;
+    transition: 0.5s ease !important;
+    color: #D62828;
+}
+
+a i {
+    margin-right: 5px;
+    font-size: 20px !important;
+    top: 5px !important;
+    position: relative;
+    ;
+}
